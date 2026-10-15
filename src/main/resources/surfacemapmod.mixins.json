@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.levented256.surfacemapmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinClientPlayerEntity"
+  ],
+  "client": [
+    "MixinClientPlayerEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

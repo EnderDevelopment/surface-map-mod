@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "surfacemapmod",
+  "version": "1.0.0",
+  "name": "Surface Map Mod",
+  "description": "A Fabric mod for Minecraft 1.26.2 (Purpur client-side) with full-screen surface-only world map",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.levented256.surfacemapmod.SurfaceMapMod"
+    ]
+  },
+  "mixins": [
+    "surfacemapmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.26.2"
+  }
+}
